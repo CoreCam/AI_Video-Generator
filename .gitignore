@@ -1,0 +1,135 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and credentials
+**/api_keys/
+**/credentials/
+**/secrets/
+
+# Personal data
+personas/*/
+!personas/example_persona/
+!personas/README.md
+
+# Generated videos and outputs
+output/videos/*.mp4
+output/videos/*.mov
+output/videos/*.avi
+output/**/*.mp4
+output/**/*.mov
+output/**/*.avi
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# ChromaDB vector store
+**/chroma_db/
+**/chroma/
+**/vector_store/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+**/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large files that shouldn't be committed
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# Model files
+*.pkl
+*.model
+*.pth
+*.pt
+*.onnx
+
+# Data files
+data/
+datasets/
+embeddings/
+processed/
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Test outputs
+test_outputs/
+test_results/

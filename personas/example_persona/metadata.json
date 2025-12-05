@@ -1,0 +1,41 @@
+{
+  "persona_id": "example_001",
+  "name": "ExamplePersona",
+  "description": "Template persona for AI video generation - replace with your own",
+  "created_at": "2025-01-01T00:00:00Z",
+  "video_files": [
+    "example_angry.mp4",
+    "example_inspired.mp4", 
+    "example_neutral.mp4",
+    "example_reflective.mp4",
+    "example_relief.mp4"
+  ],
+  "appearance": {
+    "facial_features": "Authentic human features captured in video embeddings",
+    "expressions": "5 distinct emotional states: angry, inspired, neutral, reflective, relief",
+    "mannerisms": "Natural, authentic movement patterns",
+    "consistency": "Recognizable across different emotional states"
+  },
+  "personality": {
+    "speaking_style": "Natural and conversational",
+    "tone": "Authentic and engaging", 
+    "energy_level": "Adaptable based on context",
+    "authenticity": "Real person with genuine expressions"
+  },
+  "emotional_range": {
+    "angry": "Intense emotions, dramatic tension, strong reactions",
+    "inspired": "Excitement, enthusiasm, breakthrough moments, discovery",
+    "neutral": "Calm, natural expression, everyday scenarios, baseline",
+    "reflective": "Thoughtful, contemplative, introspective, analytical",
+    "relief": "Satisfaction, accomplishment, peaceful resolution, contentment"
+  },
+  "video_descriptions": {
+    "example_angry.mp4": "Person expressing anger - intense facial expressions, dramatic body language",
+    "example_inspired.mp4": "Person showing inspiration and excitement - bright expressions, animated gestures", 
+    "example_neutral.mp4": "Person in neutral state - natural baseline expression and posture",
+    "example_reflective.mp4": "Person in thoughtful mode - contemplative expression, introspective demeanor",
+    "example_relief.mp4": "Person expressing relief and satisfaction - peaceful, content expressions"
+  },
+  "embedding_status": "not_started",
+  "vector_store_status": "not_uploaded"
+}
